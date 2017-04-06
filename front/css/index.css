@@ -1,0 +1,12 @@
+
+h1{
+	text-align: center;
+}
+
+.styledFont{
+	color: green;
+}
+
+#multiP{
+	color: orange; font-size:15px;font-weight:bold;
+}
