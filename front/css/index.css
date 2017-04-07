@@ -1,12 +1,49 @@
 
-h1{
-	text-align: center;
+
+body{
+	margin: 0;
+	padding: 0;
+	margin-top: 0
+	padding-top:0;
+	background-color: rgb(280, 280, 280);
 }
 
-.styledFont{
-	color: green;
+h1, h2, h3{
+	margin: 0;
+	padding: 0;
+	
 }
 
-#multiP{
-	color: orange; font-size:15px;font-weight:bold;
+
+
+.pl {
+    /*position: relative;*/
+    display: inline-block;
+}
+
+.pl-content {
+    display: none;
+    position: absolute;
+    /*background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;*/
+}
+
+.pl:hover .pl-content {
+    display: block;
+}
+.header{
+	background-color: rgb(0, 99, 130);
+	color: white;
+	font-family: Palatino;
+	font-size: 100%;
+	top: 0
+}
+
+.bodypage{
+	float: center;
+	font-family: cursive; 
+	color: rgb(0, 99, 130)
 }
